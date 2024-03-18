@@ -62,19 +62,23 @@
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
 // document.write(colorList);
 
-// Question # 9(a)
+//Question # 9(a)
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
-// colorList.unshift("See Green") 
+// var newColor = prompt("Add New Color" ,"Sea Green");
+// colorList.unshift(newColor); 
 // document.write (`${colorList}`);
 
 // Question # 9(b)
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
-// colorList.push("Indigo") 
+// var newColor = prompt("Add New Color" ,"Indigo");
+// colorList.push("newColor"); 
 // document.write (`${colorList}`);
 
 // Question # 9(c)
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
-// colorList.unshift("Indigo","Sea Green"); 
+// var newColor1 = prompt("Add New Color" ,"Sea Green");
+// var newColor2 = prompt("Add New Color" ,"Indigo");
+// colorList.unshift(newColor1,newColor2); 
 // document.write (`${colorList}`);
 
 
@@ -92,12 +96,16 @@
 
 // Question # 9(f)
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
-// colorList.splice(2,0,"Yellow"); 
+// var newColor2 = prompt("Add New Color" ,"Yellow");
+// var position = prompt("Please add Position");
+// colorList.splice(position,0,newColor2); 
 // document.write (`${colorList}`);
 
 // Question # 9(g)
 // var colorList = ["Red","Green","Blue","Pink","Orange"];
-// colorList.splice(2,2); 
+// var indxNo = prompt("Tell Index No. from where color will be deleted");
+// var colorRange = prompt("How many color do you want to delete");
+// colorList.splice(indxNo,colorRange); 
 // document.write (`${colorList}`);
 
 
